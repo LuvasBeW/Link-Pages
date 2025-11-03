@@ -1,0 +1,54 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color:hsl(0, 0%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    text-align: center;
+    width: 280px;
+    height: auto;
+    padding: 30px;
+    border-radius: 12px;
+    background-color: hsl(0, 0%, 12%);
+}
+.img{
+    border-radius:50%;
+    width: 90px;
+    height: 90px;
+    margin-bottom: 25px;
+}
+h1{
+    font-weight: 700;
+    font-size: 24px;
+    margin: 0;
+    margin-bottom: 5px;
+    color: white;
+}
+.city{
+    font-weight: 700;
+    color: hsl(75, 94%, 57%);
+    margin-bottom: 25px;
+}
+.bio{
+    color: white;
+    margin-bottom: 25px;
+}
+a{
+    color: white;
+    display: block;
+    text-align: center  ;
+    text-decoration: none;
+    padding: 12px 10px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    background-color: hsl(0, 0%, 20%);
+}
+a:hover{
+    cursor: pointer;
+    background-color: hsl(75, 94%, 57%);
+}
